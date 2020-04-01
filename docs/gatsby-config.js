@@ -10,7 +10,7 @@ module.exports = {
         root: __dirname,
         subtitle: 'Apollo Server',
         description: 'A guide to using Apollo Server',
-        githubRepo: 'apollographql/apollo-server',
+        githubRepo: 'edabot/server-clone',
         defaultVersion: '2',
         versions: {
           '1': 'version-1',
@@ -47,13 +47,14 @@ module.exports = {
             'federation/other-servers',
             'federation/federation-spec',
           ],
-          Testing: ['testing/mocking', 'testing/testing', 'testing/graphql-playground'],
+          Testing: [
+            'testing/mocking',
+            'testing/testing',
+            'testing/graphql-playground',
+          ],
           Performance: ['performance/caching', 'performance/apq'],
           Security: ['security/authentication', 'security/terminating-ssl'],
-          Integrations: [
-            'integrations/middleware',
-            'integrations/plugins',
-          ],
+          Integrations: ['integrations/middleware', 'integrations/plugins'],
           Deployment: [
             'deployment/heroku',
             'deployment/lambda',
