@@ -10,11 +10,8 @@ module.exports = {
         root: __dirname,
         subtitle: 'Apollo Server',
         description: 'A guide to using Apollo Server',
-        githubRepo: 'apollographql/apollo-server',
-        defaultVersion: '2',
-        versions: {
-          '1': 'version-1',
-        },
+        githubRepo: 'edabot/server-clone',
+        defaultVersion: '1',
         sidebarCategories: {
           null: [
             'index',
