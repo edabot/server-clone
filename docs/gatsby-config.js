@@ -13,11 +13,7 @@ module.exports = {
         githubRepo: 'edabot/server-clone',
         defaultVersion: '1',
         sidebarCategories: {
-          null: [
-            'index',
-            'getting-started',
-            '[Changelog](https://github.com/apollographql/apollo-server/blob/master/CHANGELOG.md)',
-          ],
+          null: ['index', 'getting-started'],
           Defining: [
             'schema/schema',
             'schema/scalars-enums',
