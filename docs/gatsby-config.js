@@ -18,7 +18,7 @@ module.exports = {
             'getting-started',
             '[Changelog](https://github.com/apollographql/apollo-server/blob/master/CHANGELOG.md)',
           ],
-          'Defining a Schema': [
+          Defining: [
             'schema/schema',
             'schema/scalars-enums',
             'schema/unions-interfaces',
