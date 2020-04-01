@@ -14,7 +14,7 @@ module.exports = {
         defaultVersion: '1',
         sidebarCategories: {
           null: ['index', 'getting-started'],
-          Defining: [
+          'Defining a Schema': [
             'schema/schema',
             'schema/scalars-enums',
             'schema/unions-interfaces',
